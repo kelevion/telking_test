@@ -1,0 +1,204 @@
+.nav{
+    height: 168px;
+    position: relative;
+}
+.line{
+    border-bottom: 3px solid #cccfd0;
+}
+.nav .w{
+    height: 100%;
+    position: relative;
+}
+.nav .w .title{
+    position: absolute;
+    top: 65px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: #000;
+}
+.nav .w .subheading{
+    position: absolute;
+    top: 105px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+.nav .w .navitems{
+    position: absolute;
+    display: block;
+    top: 105px;
+   right: 0;
+}
+.nav .w .navitems ul li{
+    float: left;
+}
+.nav .w .navitems ul li a{
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 25px;
+}
+.main {
+    width: 100%;
+    height: 1120px;
+    margin-top: 10px;
+}
+.w .main .section1{
+    float: left;
+    position: relative;
+    width: 560px;
+    height: 285px;
+    background-color: #fff;
+}
+.focus {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 539px;
+    height: 267px;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+
+.arrow-r {
+    right: 0;
+}
+.arrow-r:hover{
+    border-bottom: 0px;
+}
+.arrow-l:hover{
+    border-bottom: 0px;
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 235px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /*background-color: #fff;*/
+    background-color: #c1c3c5;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff!important;
+    height: 10px!important;
+}
+.section2{
+    float: right;
+    height: 285px;
+    width: 563px;
+}
+.support{
+    position: relative;
+    height: 108px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 1px;
+}
+.support .support_title{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.support .view{
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    background-color: #fff;
+    color: #909294;
+    width: 93px;
+    height: 38px;
+    border: 2px solid #e9e9ea;
+    font-weight: bold;
+}
+.user_info{
+position: relative;
+height: 175px;
+width: 100%;
+background-color: #fff;
+}
+table{
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    width: 465px;
+    height: 125px;
+
+    color: #000;
+}
+th{
+   text-align: left;
+}
+td{
+    width:50px;
+    height: 50px;
+    font-size: 13px;
+}
+.status{
+    text-align: right;
+}
+.user_status{
+    background-color: #5dd054;
+    width: 65px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5%;
+}
+.line_graph{
+    float: left;
+    width: 100%;
+    height: 345px;
+    margin-top: 19px;
+    background-color: #fff;
+}
+.pie_chart{
+    float: left;
+    width: 560px;
+    height: 379px;
+    margin-top: 19px;
+    background-color: #fff;
+}
+.bar_graph{
+    float: right;
+    width: 560px;
+    height: 379px;
+    margin-top: 19px;
+    background-color: #fff;
+}

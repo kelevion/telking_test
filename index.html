@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audience Overview</title>
+    <!-- 引入基础配置样式 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入公共配置样式 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 引入首页样式 -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- 引入动画js文件 -->
+    <script src="js/animate.js"></script>
+    <!-- 引入echarts.min.js文件 -->
+    <script src="js/echarts.min.js"></script>
+</head>
+<body>
+<!-- 快捷导航区域开始 -->
+<section class="shortcut">
+    <div class="w">
+    <div class="logo">
+        <h6>LOGO</h6>
+    </div>
+    <button class="settings"><img src="images/settings.png" alt=""></button>
+    <button class="bell"><img src="images/bell.png" alt=""></button>
+    <button class="logout">
+        <h6>Log Out</h6>
+    </button>
+</div>
+</section>
+<!-- 快捷导航区域结束 -->
+<!-- 导航栏区域开始 -->
+<nav class="nav">
+    <div class="w">
+        <h2 class="title">Audience  OverView</h2>
+        <h5 class="subheading">Roseville, CA</h5>
+    <div class="navitems">
+        <ul>
+        <li><a href="#">DASHBOARD</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">CALENDAR</a></li>
+        <li><a href="#">MAILBOX</a></li>
+        <li><a href="#">SETTINGS</a></li>
+        </ul>
+    </div>
+    </div>
+</nav><div class="w">
+<div class="main">
+<section class="section1">    
+<div class="focus fl">
+    <!-- 左侧按钮 -->
+    <a href="javascript:;" class="arrow-l">
+        &lt;
+     </a>
+    <!-- 右侧按钮 -->
+    <a href="javascript:;" class="arrow-r"> &gt; </a>
+    <!-- 核心的滚动区域 -->
+    <ul>
+        <li>
+            <a href="#"><img src="upload/focus.png" alt=""></a>
+        </li>
+        <li>
+            <a href="#"><img src="upload/focus1.png" alt=""></a>
+        </li>
+        <li>
+            <a href="#"><img src="upload/focus2.png" alt=""></a>
+        </li>
+        <li>
+            <a href="#"><img src="upload/focus3.png" alt=""></a>
+        </li>
+        <li>
+            <a href="#"><img src="upload/focus4.png" alt=""></a>
+        </li>
+    </ul>
+    <ol class="circle">
+
+    </ol>
+</div>
+</section>
+<section class="section2">
+    <div class="support">
+        <h4 class="support_title">Support Request</h4>
+        <button class="view">View All</button>
+    </div>
+    <div class="user_info">
+    <table>
+        <tr>
+            <th>TIME</th>
+            <th>USER NAME</th>
+            <th class="status">STATUS</th>
+        </tr>
+        <tr>
+            <td>9:45pm</td>
+            <td>info@design.com</td>
+            <td class="status">
+                <button class="user_status">solved</button>
+            </td>
+        </tr>
+        <tr>
+            <td>9:45pm</td>
+            <td>info@design.com</td>
+            <td class="status">
+                <button class="user_status">solved</button>
+            </td>
+        </tr>
+    </table>
+    </div>
+</section>
+<div id="line_graph"  class="line_graph"></div>
+<div id="pie_chart" class="pie_chart"></div>
+<div id="bar_graph"  class="bar_graph"></div>
+</div>
+</div>
+<footer class="footer">
+    <div class="w">
+        <div class="logo"><h6>LOGO</h6></div>
+        <div class="mod_service">
+            <dl>
+                <dd><a href="#">NEWS</a></dd>
+                <dd><a href="#">CHANNELS</a></dd>
+                <dd><a href="#">OVERVIEW</a></dd>
+                <dd><a href="#">TIMELINE</a></dd>
+            </dl>
+            <dl>
+                <dd><a href="#">SPORT</a></dd>
+                <dd><a href="#">CULTURE</a></dd>
+                <dd><a href="#">NATURE</a></dd>
+                <dd><a href="#">MUSIC</a></dd>
+            </dl>
+            <dl>
+                <dd><a href="#">WEATHER</a></dd>
+                <dd><a href="#">AUTOS</a></dd>
+                <dd><a href="#">LOCAL</a></dd>
+                <dd><a href="#">SHOP</a></dd>
+            </dl>
+            <dl>
+                <dd><a href="#">FUTURE</a></dd>
+                <dd><a href="#">FOOD</a></dd>
+                <dd><a href="#">EARTH</a></dd>
+                <dd><a href="#">TV</a></dd>
+            </dl>
+            <dl>
+                <dd><a href="#">TRAVEL</a></dd>
+                <dd><a href="#">RADIO</a></dd>
+            </dl>
+        </div>
+    </div>
+</footer>
+
+</body>
+ <!-- 相应元素加载完后引入我们首页的js文件 -->
+<script src="js/index.js"></script>
+</html>

@@ -1,0 +1,99 @@
+/* 板心区域 */
+.w{
+    width: 1142px;
+    margin: 0 auto;
+}
+/* 快捷导航栏区域 */
+.shortcut{
+    background-color: #fff;
+    height: 100px;
+}
+.shortcut .w{
+    position: relative;
+    height: 100%;
+}
+.shortcut .logo{
+    position: absolute;
+    top: 30px;
+    height: 30px;
+    width: 105px;
+    background-color: #f92525;
+}
+.shortcut .logo h6{
+    font-size: 12px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.shortcut .settings{
+    position: absolute;
+    top: 40px;
+    right: 185px;
+}
+.shortcut .bell{
+    position: absolute;
+    top: 40px;
+    right: 150px;
+}
+.shortcut .logout{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    height: 40px;
+    width: 110px;
+    background-color: #f92525;
+}
+.shortcut .logout h6{
+    font-size: 13px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+.footer{
+    height: 250px;
+    background-color: #202124;
+}
+.footer .w{
+    height: 100%;
+    position: relative;
+}
+.footer .w .logo{
+    float: left;
+    position: absolute;
+    top: 80px;
+    height: 30px;
+    width: 105px;
+    background-color: #f92525;
+}
+.footer .logo h6{
+    font-size: 12px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.footer .w .mod_service{
+    position: absolute;
+    top: 80px;
+    left: 180px;
+    width: 1037px;
+    height: 100%;
+}
+.footer .w .mod_service dl{
+    float: left;
+    width: 200px;
+}
+.footer .w .mod_service dl dd{
+    margin-bottom: 10px;
+}
+.footer .w .mod_service dl a{
+font-size: 13px;
+font-weight: bold;
+color: #fff;
+}
+.footer .w .mod_service dl a:hover{
+    border-bottom: 2px solid #c8c8c9 ;
+}
